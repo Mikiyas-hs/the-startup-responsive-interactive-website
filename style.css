@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+    background-color: var(--red);
+}
+
+
+.logo {
+    width: 10em;
+    height: 5em;
+    margin-left: 0.75em;
+}
+
+
+.h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-left: -7.5em;
+    margin-top: 3em;
+    overflow: hidden;
+    margin-bottom: 24px;
+    line-height: 110%;
+}
+
+header .p{
+    color: white;
+    margin-left: -0.5em;
+    font-size: 1.3em;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: -27em;
+}
+
+.hamburger-line {
+    width: 2.2rem;
+    height: 0.3rem;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.btn-main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;  
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;  
+    transition: all 0.3s ease;
+    height: 3.5em;
+    width: 11em
+}
+
+.arrow {
+    margin-left: 10px;  
+    font-size: 1.5rem;  
+}
+
+.btn-main:hover {
+    background-color: rgba(255, 255, 255, 0.1);  
+}
+
+.play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;  
+    background-color: white;
+    border: 4px solid #f8d016;  
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 6em;
+}
+
+.play-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.play-icon {
+    font-size: 2rem; 
+    color: #333; 
+    font-weight: bold;
+}
+
+.h2 {
+    color: #000000;  
+    font-weight: bold; 
+    line-height: 1.1;
+    margin-bottom: 20px; 
+    margin-top: 1.2em;
+    margin-left: 0.5em;
+}
+
+.p {
+    font-size: 1.1rem; 
+    color: #000000;  
+    line-height: 1.6;  
+    margin-bottom: 20px;
+    padding-left: 20px;  
+}
+
+.a {
+    color: #000000;  
+    text-decoration: none;
+    position: relative;
+    padding-right: 20px; 
+    margin-left: 1.3em;
+}
+
+.a::after {
+    content: "→";  
+    position: absolute;
+    right: 0;
+    font-size: 1rem;
+    left: 18em;
+}
+
+.a:hover {
+    border-bottom: 2px solid #6a4c9c;  
+}
+
+.section-two .btn-main {
+    border: 2px solid rgb(0, 0, 0);  
+    color: rgb(0, 0, 0);
+    width: 21em
+}

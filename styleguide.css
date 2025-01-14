@@ -1,0 +1,121 @@
+/* KLEUREN & VARIABELEN IN BODY */
+body {
+    --purple: #7F4BBA;
+    --teal: #008273;
+    --red: #D92B4D;
+    --blue: #416AD9;
+    --neutral: #E8E6DF;
+
+    --text-dark: #190b34;
+    --text-light: #ffffff;
+
+    --btn-bg-transparent: rgba(255, 255, 255, 0);
+    --btn-border-light: #ffff;
+    --btn-border-dark: #0000;
+    --btn-hover-overlay: #0000003c;
+    --btn-shadow-hover: 0 0 5px rgba(74, 74, 74, 1);
+}
+
+/* FONT-FACE DEFINITIES */
+@font-face {
+    font-family: "GilroyBlack";
+    src: url("Assets/fonts/gilroy/gilroy-extra-bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("Assets/fonts/gilroy/gilroy-bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("Assets/fonts/gilroy/gilroy-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "GilroyItalic";
+    src: url("Assets/fonts/gilroy/gilroy-regular-italic.woff2") format("woff2");
+}
+
+/* HEADINGS (SEMANTISCHE HTML-TAGS) */
+.h1 {
+    font-family: "GilroyBlack";
+    font-size: 40px;
+    margin: 0 0 1rem 0;
+}
+
+h2 {
+    font-family: "GilroyBlack";
+    font-size: 34px;
+    margin: 0 0 0.75rem 0;
+}
+
+h3 {
+    font-family: "GilroyBold";
+    font-size: 20px;
+    margin: 0 0 0.5rem 0;
+}
+
+h4 {
+    font-family: "GilroyBold";
+    font-size: 16px;
+    margin: 0 0 0.5rem 0;
+}
+
+/* PARAGRAPH (p), TIME */
+p {
+    font-family: "GilroyRegular";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+}
+
+time {
+    font-family: "GilroyItalic";
+    font-size: 10px;
+}
+
+/* LINKS (a) */
+a {
+    font-family: "GilroyBold";
+    text-decoration: none;
+    color: var(--text-dark);
+    letter-spacing: 1px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTONS */
+button {
+    cursor: pointer;
+}
+
+.btn-main {
+    font-family: "GilroyBold";
+    border-radius: 30px;
+    border: 2px solid var(--btn-border-dark);
+    background-color: var(--btn-bg-transparent);
+    letter-spacing: 2px;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
+
+.btn-main:hover {
+    transform: scale(1.01); 
+}
+
+.btn-accent {
+    border-radius: 30px;
+    border: 2px solid var(--btn-border-light);
+    background-color: var(--btn-bg-transparent);
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-light);
+}
+
+.btn-accent:hover {
+    background-color: var(--btn-hover-overlay);
+}
