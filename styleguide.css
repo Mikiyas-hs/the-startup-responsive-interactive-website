@@ -1,11 +1,13 @@
 /* KLEUREN & VARIABELEN IN BODY */
+
+
 body {
-    --purple: #7F4BBA;
+    --purple: #7F4BBA; 
     --teal: #008273;
     --red: #D92B4D;
     --blue: #416AD9;
     --neutral: #E8E6DF;
-
+/* color benoemen naar wat het is */
     --text-dark: #190b34;
     --text-light: #ffffff;
 
@@ -38,6 +40,7 @@ body {
 }
 
 /* HEADINGS (SEMANTISCHE HTML-TAGS) */
+/* . weghalen bij h1 */
 .h1 {
     font-family: "GilroyBlack";
     font-size: 40px;
@@ -70,17 +73,13 @@ p {
     margin: 0 0 1rem 0;
 }
 
-time {
-    font-family: "GilroyItalic";
-    font-size: 10px;
-}
-
 /* LINKS (a) */
 a {
     font-family: "GilroyBold";
     text-decoration: none;
     color: var(--text-dark);
     letter-spacing: 1px;
+    font-size: 1.1em;
 }
 
 a:hover {
@@ -97,6 +96,7 @@ button {
     border-radius: 30px;
     border: 2px solid var(--btn-border-dark);
     background-color: var(--btn-bg-transparent);
+    color: black;
     letter-spacing: 2px;
     font-size: 15px;
     transition: transform 0.2s;

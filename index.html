@@ -13,7 +13,7 @@
 <body class="body">
     <!-- Header van de website -->
     <header>
-        <img src="Assets/logo.svg" alt="informaat logo" class="logo">
+        <img src="Assets/images/logo.svg" alt="informaat logo" class="logo">
 
 
         <h1 class="h1">Voor die online dienst waar de wereld wel op zit te wachten.</h1>
@@ -22,17 +22,27 @@
 
         <!-- Hamburger-menu -->
         <nav>
-            <button class="hamburger-menu" aria-label="Open menu"></button>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="ham-menu">
+                <rect x="2" y="2" width="20" height="4" rx="0.5" fill="#190B34" class="rect-1" />
+                <rect x="8" y="10" width="14" height="4" rx="0.5" fill="#190B34" class="rect-2" />
+                <rect x="5" y="18" width="17" height="4" rx="0.5" fill="#190B34" class="rect-3" />
+            </svg>
 
-            <!-- <ul>
-            <li><a href="#">True experience</a></li>
-            <li><a href="#">expertises</a></li>
-            <li><a href="#">inzichten</a></li>
-            <li><a href="#">over ons</a></li>
-            <li><a href="#">vacaturer</a></li>
-            <li><a href="#">contact</a></li>
-        </ul> -->
+
+            <div class="off-screen-menu">
+                <ul>
+                    <li><a href="#">True-experience</a></li>
+                    <li><a href="#">expertises</a></li>
+                    <li><a href="#">inzichten</a></li>
+                    <li><a href="#">over ons</a></li>
+                    <li><a href="#">vacature</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
         </nav>
+
+
 
 
         <a class="btn-main">
@@ -78,10 +88,10 @@
         </a>
     </main>
 
-    <!-- section 3 -->
+    <!-- section 2 -->
     <section class="blue-section">
-        <img src="Assets/images/man-met-beker-tegen-oor.png" alt="Illustratie van een persoon, relevant voor de sectie Waarderproposities"
-        class="blue-img">
+        <img src="Assets/images/man-met-beker-tegen-oor.png"
+            alt="Illustratie van een persoon, relevant voor de sectie Waarderproposities" class="blue-img">
         <nav>
             <ul>
                 <li><a href="#">Waarderproposities</a></li>
@@ -90,9 +100,9 @@
                 <li><a href="#">Contentarchitectuur</a></li>
             </ul>
         </nav>
-        <h2 class="h2">Digitale innovatie die je voelt <span class="highlight">en beleeft.</span></h2>
+        <h1 class="h1">Digitale innovatie die je voelt <span class="highlight">en beleeft.</span></h1>
         <p>
-            <a href="#" class="btn-main">Vervul je digitale belofte</a>
+            <a href="#" class="btn-main">Klik voor de toekomst <span class="arrow">→</span></a>
         </p>
     </section>
 
@@ -106,36 +116,35 @@
             bulletpoint.
         </p>
         <p>
-            <a href="#">Versterk je team </a>
+            <a href="#" class="a">Versterk je team </a>
         </p>
-        <img src="Assets/" alt="Illustratie van iemand die werkt aan een digitaal ontwerp"
-            class="digital-img">
+        <!-- <img src="Assets/" alt="Illustratie van iemand die werkt aan een digitaal ontwerp" class="digital-img"> -->
     </section>
 
     <!-- section 5-->
     <section class="section-five">
-    <h2 class="h2">Inzichten</h2>
+        <h2 class="h2">Inzichten</h2>
         <article>
-            <img src="Assets/" alt="Illustratie van waardengedreven ontwerp" class="Event">
+            <img src="Assets/images/foto-1-inzichten.png" alt="Illustratie van waardengedreven ontwerp" class="Event">
             <p class="insight-type">Event</p>
             <h3 class="h3">Waardengedreven ontwerp #2</h3>
         </article>
 
         <article>
-            <img src="Assets/" alt="Webinar met professionals" class="Webinars">
+            <img src="Assets/images/foto-2-inzichten.png" alt="Webinar met professionals" class="Webinars">
             <p class="insight-type">Webinars</p>
             <h3 class="h3">Vergroot je kennis en liefde voor het vak</h3>
         </article>
 
         <article>
-            <img src="Assets/" alt="Certified B Corporation logo" class="artikelen">
+            <img src="Assets/images/foto-3-inzichten.png" alt="Certified B Corporation logo" class="artikelen">
             <p class="insight-type">Artikel</p>
             <h3 class="h3">Informaat deel van de B Corp familie</h3>
             <p class="author">Susanne van Mulken - 10 januari 2024</p>
         </article>
 
         <article>
-            <img src="Assets/" alt="Poster: Big Signs, Not Big Data" class="artikelen-two">
+            <img src="Assets/images/foto-4-inzichten.png" alt="Poster: Big Signs, Not Big Data" class="artikelen-two">
             <p class="insight-type">Artikel</p>
             <h3 class="h3">Hoeders van digitale burgerrechten</h3>
             <p class="author">Barbara Werdmuller - 30 oktober 2023</p>
@@ -149,17 +158,18 @@
             Wij willen met ons werk, ons bureau en samen met onze klanten graag bijdragen aan een mooiere wereld voor
             iedereen. Eerlijk, inclusief en duurzaam.
         </p>
+
+        <img src="Assets/images/certified b corporation.png" alt="Certified B Corporation landschap" class="b-img">
+
         <p>
             Als B Corp zijn we onderdeel van een beweging van circa 7500 bedrijven wereldwijd die zich inzetten voor een
             nieuwe economie waarin bedrijven hun instrumenten niet alleen ten goede laten komen aan de aandeelhouders,
             maar ook een positieve impact hebben op mens, maatschappij en milieu.
         </p>
-        <a href="#" class="btn-main">Volg de beweging</a>
-        <img src="Assets/" alt="Certified B Corporation landschap" class="b-img">
-
-        <p class="back-to-top">
-            <a href="#top">Naar boven ↑</a>
+        <a href="#" class="btn-main">Volg de beweging <span class="arrow">→</span></a>
         </p>
+        <button class="back-to-top">Naar boven</button>
+
     </section>
 
     <!-- Footer -->
@@ -167,54 +177,57 @@
         <!-- Snelmenu -->
         <nav class="snelmenu">
             <ul>
-                <li><a href="#">True experiences</a></li>
-                <li><a href="#">Expertises</a></li>
-                <li><a href="#">Inzichten</a></li>
+                <li><a href="#">true-experiences</a></li>
+                <li><a href="#">diensten</a></li>
+                <li><a href="#">updates</a></li>
                 <li><a href="#">Over ons</a></li>
-                <li><a href="#">Voor jou</a></li>
+                <li><a href="#">Vacature</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-
-        <!-- info -->
-            <address class="adres">
-                <p>Samenstraat 21<br>
-                023 546 Heemskerk<br>
-            </p>
-                <a href="mailto:info@informaat.nl">info@informaat.nl</a>
-            </address>
-
-
-
-        <!-- socials -->
-        <nav class="social-logos">
-            <ul>
-                <li><img src="Assets/" alt="Instagram"></li>
-                <li><img src="Assets/" alt="Linkedin"></li>
-                <li><img src="Assets/" alt="X"></li>
             </ul>
         </nav>
 
         <!-- Partners -->
         <nav class="partner-logos">
             <ul>
-                <li><img src="Assets/" alt="SDN"></li>
-                <li><img src="Assets/" alt="UXACADEMY"></li>
-                <li><img src="Assets/" alt="DUTCH DIGITAL AGENCIES"></li>
-                <li><img src="Assets/" alt="EMERCE 100"></li>
+                <li><img src="Assets/images/emerce100.svg" alt="EMERCE 100" class="emerce"></li>
+                <li><img src="Assets/images/DDA.svg" alt="DUTCH DIGITAL AGENCIES" class="dda"></li>
+                <li><img src="Assets/images/UX-Academy.svg" alt="UXACADEMY" class="ux-ac"></li>
+                <li><img src="Assets/images/SDN.svg" alt="SDN" class="sdn"></li>
             </ul>
         </nav>
 
+        <!-- info -->
+        <address class="adres">
+            <p>Samenstraat 21<br>
+                023 546 Heemskerk<br>
+            </p>
+            <a href="mailto:info@informaat.nl">info@informaat.nl</a>
+        </address>
+
+
+
+        <!-- socials -->
+        <nav class="social-logos">
+            <ul>
+                <li><img src="Assets/images/Instagram.svg" alt="Instagram"></li>
+                <li><img src="Assets/images/Linkedin.svg" alt="Linkedin"></li>
+                <li><img src="Assets/images/twitter.svg" alt="X"></li>
+            </ul>
+        </nav>
+
+
+
         <!-- footer info -->
-        <article class="more-info">            
+        <article class="more-info">
             <h3 class="h4">Ontwerpers <span class="highlight">voor het leven.</span></h3>
-            <img src="Assets/logo.svg" alt="Logo van Informaat" class="logo">
-            <a href="#">Privacy statement</a>
-            <a href="#">Informaat is onderdeel van <span>Vitas</span></a>
+            <img src="Assets/images/logo.svg" alt="Logo van Informaat" class="logo">
+            <p class="info">Informaat is onderdeel van <span class="vitas">Vitas</span></p>
+            <p class="privacy">Privacy statement</p>
+
         </article>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
+
 </html>
-
-
-
